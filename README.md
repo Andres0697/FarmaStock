@@ -182,14 +182,4 @@ python -m unittest tests.test_integracion_mysql -v # pruebas con MySQL real (bas
 - Montos con `Decimal` en compras y pagos; pestaña *Recepciones* con el historial; columnas Pedido/Recibido.
 - Las órdenes ya recibidas con el flujo anterior se migran como una recepción (migración 010).
 
-## Etapa R: cumplimiento de la rúbrica (sin tablas nuevas; siguen siendo 30)
-
-- **SQLAlchemy (ORM):** `database/orm.py`, `models/orm_entidades.py`, `models/catalogo_orm.py`. Categorías y Proveedores usan CRUD completo
-  con modelos declarativos y sesiones con commit/rollback. Instalar con `pip install -r requirements.txt` (agrega SQLAlchemy).
-- **QThread:** `utils/workers.py`; reportes, exportaciones e importación CSV corren en segundo plano con barra de progreso y señales.
-- **Menús y herramientas:** barra de menús, barra de herramientas, acciones únicas con atajos de teclado e íconos; el menú lateral y las acciones se sincronizan.
-- **QFileDialog:** abrir (importar categorías CSV, con validación de extensión, tamaño y UTF-8) y guardar (reportes y CSV); la cancelación no genera errores.
-- **QValidator:** validadores en login, productos, clientes, proveedores, usuarios, categorías y la recepción de compras.
-- Guía de defensa: `docs/RUBRICA.md`. Pruebas nuevas: `tests/test_orm.py` (SQLite temporal) y `tests/test_importers.py`.
-
 Pendiente (próximas etapas): que la venta use el turno de caja, cliente y crédito (Etapa 5/6), alertas configurables (Etapa 7).
