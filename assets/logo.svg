@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#1976d2"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#102a43" stroke-width="10" opacity=".25"/>
+  <!-- cruz farmacéutica -->
+  <path d="M212 96h88a16 16 0 0 1 16 16v84h84a16 16 0 0 1 16 16v88a16 16 0 0 1-16 16h-84v84a16 16 0 0 1-16 16h-88a16 16 0 0 1-16-16v-84h-84a16 16 0 0 1-16-16v-88a16 16 0 0 1 16-16h84v-84a16 16 0 0 1 16-16z" fill="#ffffff" transform="translate(0 -20) scale(1)"/>
+  <!-- cápsula -->
+  <g transform="rotate(-40 256 236)">
+    <rect x="186" y="206" width="140" height="60" rx="30" fill="#1976d2"/>
+    <path d="M256 206h40a30 30 0 0 1 0 60h-40z" fill="#102a43"/>
+  </g>
+  <!-- lote / caja -->
+  <rect x="96" y="408" width="320" height="14" rx="7" fill="#ffffff" opacity=".85"/>
+</svg>

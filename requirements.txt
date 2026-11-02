@@ -1,0 +1,6 @@
+PySide6
+mysql-connector-python
+SQLAlchemy>=2.0
+python-dotenv
+reportlab
+openpyxl

@@ -1,0 +1,11 @@
+# MySQL desechable solo para pruebas (puerto 3307; no toca tu MySQL local).
+services:
+  mysql-test:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+    ports:
+      - "3307:3306"
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci"]
+    tmpfs:
+      - /var/lib/mysql

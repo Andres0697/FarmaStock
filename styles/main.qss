@@ -1,0 +1,77 @@
+* { font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; }
+QLabel { background:transparent; }
+QMainWindow, QWidget { background:#f5f8fc; color:#243447; }
+#sidebar { background:#102a43; }
+#sidebarBrand { color:white; background:transparent; font-size:22px; font-weight:800; padding:0 2px; }
+#brandBadge { background:white; border-radius:14px; }
+#sidebarTag { background:transparent; color:#9fb3c8; font-size:11px; padding:0 3px 8px; }
+#sidebarUser { color:#e6f0fa; background:#173b5e; border:1px solid #24527a; border-radius:10px; padding:11px; }
+#navButton { color:#dbeafe; background:transparent; border:0; text-align:left; padding:11px 12px; border-radius:8px; font-weight:600; }
+#navButton:hover { background:#1d466b; }
+#contentArea { background:#f5f8fc; }
+#pageTitle { font-size:25px; font-weight:800; color:#102a43; }
+#sectionTitle { font-size:16px; font-weight:750; color:#102a43; }
+#mutedLabel { color:#718096; }
+QLineEdit,QComboBox,QSpinBox,QDoubleSpinBox,QDateEdit,QTextEdit { background:white; border:1px solid #d7e1ec; border-radius:8px; padding:7px 9px; min-height:20px; }
+#addQuantity { min-width:110px; min-height:32px; font-size:14px; font-weight:700; padding:4px 8px; text-align:center; }
+#cartQuantityEdit { min-width:64px; max-width:72px; min-height:30px; max-height:32px; font-size:13px; font-weight:700; padding:3px 5px; text-align:center; }
+#cartQuantityEdit:focus { border:1px solid #3b82f6; }
+QLineEdit:focus,QComboBox:focus,QSpinBox:focus,QDoubleSpinBox:focus,QDateEdit:focus,QTextEdit:focus { border:1px solid #3b82f6; }
+QPushButton { border-radius:8px; padding:8px 13px; font-weight:650; }
+#primaryButton { background:#1976d2; color:white; border:0; }
+#primaryButton:hover { background:#1565c0; }
+#secondaryButton { background:white; color:#24415d; border:1px solid #cbd5e1; }
+#secondaryButton:hover { background:#eef6ff; border-color:#93c5fd; }
+#dangerButton { background:#c62828; color:white; border:0; }
+#dangerButton:hover { background:#a61f1f; }
+QTableWidget { background:white; border:1px solid #dbe4ee; border-radius:10px; gridline-color:#edf2f7; selection-background-color:#dcecff; selection-color:#102a43; alternate-background-color:#f9fbfd; }
+QHeaderView::section { background:#eaf2fa; color:#29445f; padding:8px; border:0; border-bottom:1px solid #d7e1ec; font-weight:700; }
+QTableWidget::item { padding:4px; }
+#statCard { background:white; border:1px solid #e0e8f0; border-radius:13px; }
+#cardLabel { color:#718096; font-weight:650; }
+#cardValue { color:#1976d2; font-size:24px; font-weight:800; }
+#totalLabel { font-size:18px; font-weight:800; color:#1976d2; }
+#loginLogo { font-size:36px; font-weight:850; color:#1976d2; }
+#loginSubtitle { color:#64748b; }
+#loginCard { background:white; border:1px solid #e0e8f0; border-radius:16px; }
+#loginCard QLabel, #loginCard QCheckBox { background:transparent; }
+#loginCard QCheckBox::indicator { background:white; }
+#formMessage { color:#b42318; min-height:20px; }
+QGroupBox { background:white; border:1px solid #e0e8f0; border-radius:10px; margin-top:10px; padding-top:15px; font-weight:700; }
+QGroupBox::title { subcontrol-origin:margin; left:12px; padding:0 5px; color:#334155; }
+QTabWidget::pane { border:1px solid #dbe4ee; background:white; border-radius:8px; }
+QTabBar::tab { background:#edf3f9; padding:9px 14px; margin-right:2px; border-radius:6px 6px 0 0; }
+QTabBar::tab:selected { background:white; color:#1976d2; font-weight:700; }
+QSplitter::handle { background:#e5edf5; }
+QStatusBar { background:white; }
+QScrollBar:vertical { width:10px; background:#eef3f8; }
+QScrollBar::handle:vertical { background:#c5d3e1; border-radius:5px; min-height:25px; }
+QMessageBox QPushButton { min-width:80px; }
+QDialog { background:#f5f8fc; }
+QCheckBox { spacing:7px; }
+
+#cartCount { color:#64748b; }
+
+
+/* ---- Ventas: panel de cobro e historial en la esquina ---- */
+#paymentBox { background:white; border:1px solid #dbe4ee; border-radius:12px; }
+#paymentBox QLabel { background:transparent; }
+#historyPanel { background:white; border:1px solid #cbd5e1; border-radius:14px; }
+#historyPanel QLabel { background:transparent; }
+#receiptPreview { background:white; border:1px solid #dbe4ee; border-radius:8px; }
+#removeButton { background:white; color:#64748b; border:1px solid #cbd5e1; border-radius:6px; padding:0; font-size:12px; }
+#removeButton:hover { background:#fee2e2; color:#c62828; border-color:#fca5a5; }
+
+/* Barra de menús integrada en el área de contenido (no altera el menú lateral) */
+QMenuBar { background:transparent; color:#102a43; border:0; padding:0; }
+QMenuBar::item { background:transparent; padding:5px 12px; border-radius:6px; }
+QMenuBar::item:selected { background:#e3eefa; }
+QMenu { background:white; color:#102a43; border:1px solid #d9e2ec; padding:4px; }
+QMenu::item { padding:6px 28px 6px 24px; border-radius:6px; }
+QMenu::item:selected { background:#e3eefa; color:#102a43; }
+QMenu::item:disabled { color:#9aa5b1; }
+QMenu::separator { height:1px; background:#e4e7eb; margin:4px 8px; }
+QToolBar { background:transparent; border:0; spacing:4px; }
+QToolBar QToolButton { color:#102a43; background:transparent; padding:4px 8px; border-radius:6px; }
+QToolBar QToolButton:hover { background:#e3eefa; }
+
