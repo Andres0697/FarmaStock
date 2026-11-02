@@ -1,4 +1,4 @@
-"""Capa ORM (SQLAlchemy) para los catálogos. Convive con el SQL directo del resto del sistema.
+"""Capa de sesiones ORM (SQLAlchemy) para todas las entidades de FarmaStock.
 
 Usa el mismo servidor y las mismas tablas que `Database` (sin tablas nuevas) y el mismo
 controlador `mysql-connector-python`. La interfaz nunca ve la sesión: los modelos abren una
